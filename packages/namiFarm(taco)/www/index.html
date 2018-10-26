@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+  <meta name="mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta name="HandheldFriendly" content="true" />
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBa5ZW8zd3h6LvNwelLiAdN3DCgQJqxd1E",
+      authDomain: "isyou-1324.firebaseapp.com",
+      databaseURL: "https://isyou-1324.firebaseio.com",
+      storageBucket: "isyou-1324.appspot.com",
+    };
+    firebase.initializeApp(config);
+    var testRef = firebase.database().ref("test");
+    testRef.push(new Date().valueOf());
+  </script>
+
+  <script src="./phaser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+  <!-- // <script src="./main.js"></script> -->
+  <script src="bundle.js"></script>
+</head>
+<body>
+
+  <style >
+    body{
+      background-color: black;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</body>
+</html>

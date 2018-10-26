@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="heart.png">
+	<SubTexture name="emotion_17.png" x="0" y="24" width="24" height="22"/>
+	<SubTexture name="emotion_18.png" x="26" y="0" width="24" height="22"/>
+	<SubTexture name="emotion_19.png" x="26" y="24" width="24" height="22"/>
+	<SubTexture name="emotion_20.png" x="0" y="24" width="24" height="22"/>
+	<SubTexture name="emotion_21.png" x="26" y="0" width="24" height="22"/>
+	<SubTexture name="emotion_22.png" x="0" y="0" width="24" height="22"/>
+</TextureAtlas>

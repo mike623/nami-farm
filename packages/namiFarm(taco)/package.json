@@ -1,0 +1,23 @@
+{
+  "name": "namiFarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./www/main.js",
+  "dependencies": {
+    "browserify-shim": "~3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserify-shim": {
+    "firebase": "firebase",
+    "lodash":"_"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  }
+}
